@@ -29,7 +29,7 @@ from fastmri.data.subsample import create_mask_for_mask_type
 from fastmri.data.transforms import VarNetDataTransform
 from fastmri.pl_modules.data_module import FastMriDataModule
 
-from .feature_varnet_module import FIVarNetModule
+from feature_varnet_module import FIVarNetModule
 
 torch.set_float32_matmul_precision("high")
 
